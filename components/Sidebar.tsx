@@ -1,35 +1,3 @@
-// "use client";
-
-// import Link from "next/link";
-// import { useRouter } from "next/navigation";
-
-// export default function Sidebar() {
-//   const router = useRouter();
-
-//   const logout = () => {
-//     localStorage.removeItem("token");
-//     router.push("/login");
-//   };
-
-//   return (
-//     <aside className="w-64 bg-blue-700 text-white p-6 flex flex-col min-h-screen">
-//       <h2 className="text-2xl font-bold mb-8">Snack Feedback</h2>
-//       <nav className="flex flex-col gap-4">
-//         <Link href="/dashboard" className="hover:bg-blue-600 p-2 rounded">Dashboard</Link>
-//         <Link href="/create-customer" className="hover:bg-blue-600 p-2 rounded">Create Customer</Link>
-//         <Link href="/view-customers" className="hover:bg-blue-600 p-2 rounded">View Customers</Link>
-//       </nav>
-//       <button
-//         onClick={logout}
-//         className="mt-auto bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded"
-//       >
-//         Logout
-//       </button>
-//     </aside>
-//   );
-// }
-
-
 "use client";
 
 import Link from "next/link";
