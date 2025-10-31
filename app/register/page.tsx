@@ -34,7 +34,6 @@ export default function RegisterPage() {
         />
       </div>
 
-      {/* RIGHT SIDE - REGISTER FORM with animation */}
       <motion.div
         initial={{ x: "100%", opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -57,7 +56,7 @@ export default function RegisterPage() {
           )}
 
           <form onSubmit={handleRegister} className="space-y-5">
-            {/* USERNAME */}
+           
             <div className="relative">
               <FaUser className="absolute left-4 top-3.5 text-rose-400" />
               <input
